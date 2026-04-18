@@ -25,5 +25,5 @@ def test_login():
     # Step 5: Validate Result
     success_msg = driver.find_element(By.ID, "flash").text
     assert "You logged into a secure area!" in success_msg
-
+    print("Second version of login test")
     driver.quit()
